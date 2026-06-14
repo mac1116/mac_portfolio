@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mheil Andrei N. Cenita - Web Designer & Front-End Developer portfolio" />
+  <title>Mheil Andrei Cenita | Web Designer & Front-End Developer</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="three-bg"></canvas>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">
+        <span class="logo--black"><img src="assets/images/logo.png" alt="Mheil Andrei Cenita" /></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#contact" class="nav__link">Connect</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <!-- TODO: Replace this with your actual resume link -->
+        <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--outline">Download Resume</a>
+        <a href="#contact" class="btn btn--primary">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__intro reveal">
+          Hello, I am <span class="highlight">Mheil Andrei Cenita</span> a 3rd Year BS-Computer Science
+        </div>
+
+        <div class="hero__title-wrapper">
+          <!-- BACK LAYER: Text behind image -->
+          <div class="hero__title-back">
+            <span class="hero__title--fill" data-text="Web Designer &">Web Designer &</span>
+            <span class="hero__title--outline" id="frontendDev">Front-End Developer</span>
+          </div>
+
+          <!-- MIDDLE LAYER: Profile image -->
+          <div class="hero__image-wrapper reveal">
+            <!-- TODO: Replace this with your real hero photo -->
+            <img src="assets/images/mac.png" alt="Mheil Andrei Cenita" class="hero__image" />
+            <div class="hero__glow"></div>
+          </div>
+
+          <!-- FRONT LAYER: Duplicate outline text on top of image -->
+          <div class="hero__title-front" aria-hidden="true">
+            <span class="hero__title--fill-front">Web Designer &</span>
+            <span class="hero__title--outline-front">Front-End Developer</span>
+          </div>
+        </div>
+
+        <div class="hero__info">
+          <div class="hero__card reveal">
+            <svg class="hero__card-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Based in Davao</span>
+          </div>
+
+          <div class="hero__card reveal">
+            <svg class="hero__card-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            <span>University of Mindanao</span>
+          </div>
+        </div>
+
+
+        <div class="hero__decor">
+          <div class="hero__dots">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="hero__plus">+</div>
+        </div>
+
+        <div class="scroll-indicator">
+          <span class="scroll-indicator__text">SCROLL DOWN</span>
+          <div class="scroll-indicator__line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about section-light" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__left reveal">
+            <div class="gallery-container" id="galleryContainer">
+              <div class="gallery-square" data-index="0"><img src="assets/images/html.png" alt="HTML" /></div>
+              <div class="gallery-square" data-index="1"><img src="assets/images/css.png" alt="CSS" /></div>
+              <div class="gallery-square" data-index="2"><img src="assets/images/js.png" alt="JavaScript" /></div>
+              <div class="gallery-square" data-index="3"><img src="assets/images/git.png" alt="Git & GitHub" /></div>
+              <div class="gallery-square" data-index="4"><img src="assets/images/react.png" alt="React" /></div>
+              <div class="gallery-square" data-index="5"><img src="assets/images/wp.png" alt="WordPress" /></div>
+              <div class="gallery-square" data-index="6"><img src="assets/images/figma.png" alt="Figma" /></div>
+              <div class="gallery-square" data-index="7"><img src="assets/images/ps.png" alt="Photoshop" /></div>
+            </div>
+          </div>
+
+          <div class="about__right">
+            <span class="section-label reveal">ABOUT ME &bull;</span>
+            <h2 class="section-title about__title reveal">
+              Crafting digital experiences<br />that matter.
+            </h2>
+            <p class="about__text reveal">
+              I'm a Web Designer and Front-End Developer who is passionate about building clean, responsive, and user-friendly websites. I love turning ideas into functional and delightful digital experiences.
+            </p>
+            <p class="about__text reveal">
+              My goal is to write clean code, solve problems, and create designs that not only look great but also provide real value to users. I'm always learning and exploring new technologies to improve my skills and build better web experiences.
+            </p>
+
+            <h3 class="about__skills-title reveal">CERTIFICATIONS</h3>
+            <div class="skills reveal">
+              <span class="skill-tag skill-tag--cert">IT Specialist – Databases</span>
+              <span class="skill-tag skill-tag--cert">IT Specialist – Cybersecurity</span>
+            </div>
+            <p class="about__text reveal" style="margin-top: 12px;">
+              <a href="https://www.credly.com/users/mheil-andrei-cenita" target="_blank" rel="noopener noreferrer" class="credly-link">
+                View all badges on Credly ↗
+              </a>
+            </p>
+
+            <h3 class="about__skills-title reveal">TECHNOLOGIES I WORK WITH</h3>
+            <div class="skills reveal">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Git &amp; GitHub</span>
+              <span class="skill-tag">Laravel</span>
+              <span class="skill-tag">PHP</span>
+              <span class="skill-tag">WordPress</span>
+              <span class="skill-tag">Photoshop</span>
+              <span class="skill-tag">UI/UX Design</span>
+              <span class="skill-tag">Database</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="projects-section" id="projects">
+      <div class="projects-container">
+        <div class="projects-heading">
+          <span class="projects-eyebrow">PORTFOLIO &bull;</span>
+          <h2>Latest Projects</h2>
+          <span class="projects-heading-line"></span>
+        </div>
+
+        <div class="projects-carousel">
+          <div class="projects-stage" id="projectsStage" tabindex="0" role="region" aria-label="Project carousel" aria-roledescription="carousel">
+          </div>
+
+          <button class="projects-arrow projects-arrow-prev" aria-label="Previous project">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button class="projects-arrow projects-arrow-next" aria-label="Next project">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+
+          <div class="projects-pagination" id="projects-pagination" role="tablist" aria-label="Project slides"></div>
+          <div id="project-carousel-status" class="sr-only" aria-live="polite"></div>
+        </div>
+
+        <div class="view-all-projects-wrapper">
+          <a href="projects.html" class="view-all-projects-button">
+            View All Projects
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact section-light" id="contact">
+      <div class="container">
+        <div class="contact__grid">
+          <div class="contact__left">
+            <span class="section-label reveal">CONNECT &bull;</span>
+            <h2 class="section-title contact__title reveal">GET IN TOUCH.</h2>
+            <p class="contact__desc reveal">
+              Have a project in mind? I'd love to hear about it. Send me a message and I'll get back to you within 24 hours.
+            </p>
+
+            <div class="social-cards reveal">
+              <!-- Upwork -->
+              <a href="https://www.upwork.com/freelancers/~01faf1d2b230e7e998?mp_source=share" target="_blank" rel="noopener noreferrer" class="social-card">
+                <div class="social-card__icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.476-2.479.005-.008c.432-2.286.934-3.523 2.518-3.523 1.472 0 2.517 1.055 2.517 2.572 0 1.473-1.045 2.665-2.442 2.665zM20.978 0H3.022C1.353 0 0 1.353 0 3.022v17.956C0 22.647 1.353 24 3.022 24h17.956c1.669 0 3.022-1.353 3.022-3.022V3.022C24 1.353 22.647 0 20.978 0zm-2.177 11.8c.376.42.884.78 1.515.997l-.277.858c-.758-.234-1.306-.554-1.71-1.018-.449.644-1.113 1.135-2.09 1.135-1.615 0-2.585-1.213-2.585-2.875 0-1.624.894-2.839 2.528-2.839 1.369 0 2.073.73 2.073 2.024 0 .714-.204 1.287-.526 1.718zm-5.512 3.447h-1.448l1.227-6.185H13.47c-.859 0-1.256.411-1.403 1.045l-.844 4.97H9.744l1.055-5.328H9.537l.215-1.106h2.298c.376-.017.66.05.879.19.262.17.386.479.34.881l-.025.109c-.306 1.355-.062 1.784.593 2.248.332.23.716.354 1.137.354.321 0 .646-.07.966-.21l-.221 1.09c-.352.14-.715.212-1.08.212-.783 0-1.466-.306-1.803-.893l-.377 1.798z"/></svg>
+                </div>
+                <div class="social-card__info">
+                  <span class="social-card__label">Upwork</span>
+                  <span class="social-card__handle">@mheilandrei</span>
+                </div>
+                <svg class="social-card__external" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/mac1116" target="_blank" rel="noopener noreferrer" class="social-card">
+                <!-- TODO: Replace this with your actual GitHub link -->
+                <div class="social-card__icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </div>
+                <div class="social-card__info">
+                  <span class="social-card__label">GitHub</span>
+                  <span class="social-card__handle">@mac1116</span>
+                </div>
+                <svg class="social-card__external" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+
+              <!-- Email -->
+              <a href="mailto:cenitamheil@gmail.com" class="social-card">
+                <div class="social-card__icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="social-card__info">
+                  <span class="social-card__label">Email</span>
+                  <span class="social-card__handle">cenitamheil@gmail.com</span>
+                </div>
+                <svg class="social-card__external" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/mheilandrei.cenita" target="_blank" rel="noopener noreferrer" class="social-card">
+                <!-- TODO: Replace this with your actual Facebook link -->
+                <div class="social-card__icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </div>
+                <div class="social-card__info">
+                  <span class="social-card__label">Facebook</span>
+                  <span class="social-card__handle">@mheilandrei.cenita</span>
+                </div>
+                <svg class="social-card__external" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__right reveal">
+            <form class="contact-form" id="contactForm" novalidate>
+              <h3 class="contact-form__title">Send a Message</h3>
+              <div class="form-group">
+                <input type="text" id="formName" class="form-input" placeholder="Enter your name" required aria-label="Full Name" />
+                <span class="form-error">Please enter your name</span>
+              </div>
+              <div class="form-group">
+                <input type="email" id="formEmail" class="form-input" placeholder="Enter your email address" required aria-label="Email Address" />
+                <span class="form-error">Please enter a valid email address</span>
+              </div>
+              <div class="form-group">
+                <textarea id="formMessage" class="form-input form-textarea" placeholder="How can I help you?" required aria-label="Message"></textarea>
+                <span class="form-error">Please enter your message</span>
+              </div>
+              <button type="submit" class="btn btn--primary btn--submit">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Send Message
+              </button>
+            </form>
+            <div class="form-success" id="formSuccess">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#5B5CF6" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <h4>Thank you!</h4>
+              <p>Your message has been sent.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 Mheil Andrei Cenita. All rights reserved.</p>
+      <div class="footer__social">
+        <!-- TODO: Replace with your actual social links -->
+        <a href="https://www.linkedin.com/in/mheilandrei-cenita-7b2b2b1b2/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.79２ ２４ １．７７１ ２４ｈ２０．４５１Ｃ２３．２ ２４ ２４ ２３．２２７ ２４ ２２．２７１Ｖ１．７２９Ｃ２４ .774 ２３．２ ０ ２２．２２２ ０ｈ．００３z"/></svg>
+        </a>
+        <a href="https://github.com/mac1116" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+        <a href="mailto:cenitamheil@gmail.com" aria-label="Email">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="assets/js/projects-data.js"></script>
+  <script src="script.js"></script>
+  <script src="gallery.js"></script>
+  <script src="carousel.js"></script>
+</body>
+</html>
