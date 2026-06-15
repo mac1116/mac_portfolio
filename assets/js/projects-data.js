@@ -31,7 +31,7 @@ var projects = [
       "An e-commerce and management platform for university merchandise, product variations, inventory, orders, and administrative operations.",
     image: "assets/images/project-umerch-placeholder.jpg",
     imageAlt: "UMerch university merchandise website interface",
-    url: "YOUR_UMERCH_PROJECT_LINK_HERE",
+    url: "https://umerch30-main-edex8f.free.laravel.cloud/",
     technologies: ["Laravel", "PHP", "Database", "UI/UX Design"],
     featured: true
   },
@@ -74,5 +74,24 @@ var projects = [
     url: "https://www.figma.com/design/KrxZWRF1zHuEyjAf7SLO2G/Umerch-Protoyping-SuperFinal?node-id=179-1678&t=h5tOtnkfEkebljup-1",
     technologies: ["UI/UX Design", "Application Design", "Typography"],
     featured: true
-  }
+  },
+
+  {
+  id: 6,
+  title: "SecureProBot Twitter Bot Detection",
+  category: "Machine Learning System",
+  categoryKey: "machine-learning",
+  description:
+    "An intelligent Twitter bot detection system that analyzes account metadata and profile descriptions to classify accounts as legitimate users or automated bots.",
+  image: "assets/images/secureprobot-2-0.onrender.com_.png",
+  imageAlt: "SecureProBot Twitter Bot Detection system interface",
+  url: "https://secureprobot-2-0.onrender.com/",
+  technologies: [
+    "Machine Learning",
+    "Natural Language Processing",
+    "GloVe Embeddings",
+    "Twitter Bot Detection"
+  ],
+  featured: true
+}
 ];
