@@ -1,4 +1,4 @@
-# Mheil Andrei N. Cenita — Portfolio Website
+# MAC — Portfolio Website
 
 A modern, minimalist personal portfolio website built with HTML, CSS, and JavaScript. Features an interactive Three.js 3D background, smooth animations, and a responsive layout.
 
