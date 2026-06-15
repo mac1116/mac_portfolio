@@ -114,9 +114,10 @@ textarea {
 }
 
 /* ===================== FONT-FACE ===================== */
+/* ===================== FONT-FACE ===================== */
 @font-face {
   font-family: 'Media Sans';
-  src: url('assets/fonts/media-sans-font-family/mediasans-light-TRIAL.otf') format('opentype');
+  src: url('assets/fonts/media-sans-font-family/mediasans-light-TRIAL-BF63c754772d84c.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -124,7 +125,7 @@ textarea {
 
 @font-face {
   font-family: 'Media Sans';
-  src: url('assets/fonts/media-sans-font-family/mediasans-regular-TRIAL.otf') format('opentype');
+  src: url('assets/fonts/media-sans-font-family/mediasans-regular-TRIAL-BF63c75479e5ff3.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -132,7 +133,7 @@ textarea {
 
 @font-face {
   font-family: 'Media Sans';
-  src: url('assets/fonts/media-sans-font-family/mediasans-bold-TRIAL.otf') format('opentype');
+  src: url('assets/fonts/media-sans-font-family/mediasans-bold-TRIAL-BF63c7546b153ef.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -140,7 +141,7 @@ textarea {
 
 @font-face {
   font-family: 'Media Sans SemiCondensed';
-  src: url('assets/fonts/media-sans-font-family/mediasanssemicondensed-light-TRIAL.otf') format('opentype');
+  src: url('assets/fonts/media-sans-font-family/mediasanssemicondensed-light-TRIAL-BF63c7547a7aea2.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -148,7 +149,7 @@ textarea {
 
 @font-face {
   font-family: 'Media Sans SemiCondensed';
-  src: url('assets/fonts/media-sans-font-family/mediasanssemicondensed-regular-TRIAL.otf') format('opentype');
+  src: url('assets/fonts/media-sans-font-family/mediasanssemicondensed-regular-TRIAL-BF63c75479c7708.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -156,7 +157,7 @@ textarea {
 
 @font-face {
   font-family: 'Media Sans SemiCondensed';
-  src: url('assets/fonts/media-sans-font-family/mediasanssemicondensed-bold-TRIAL.otf') format('opentype');
+  src: url('assets/fonts/media-sans-font-family/mediasanssemicondensed-bold-TRIAL-BF63c75479cdb92.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -164,7 +165,7 @@ textarea {
 
 @font-face {
   font-family: 'Media Sans SemiCondensed';
-  src: url('assets/fonts/media-sans-font-family/mediasanssemicondensed-blackitalic-TRIAL.otf') format('opentype');
+  src: url('assets/fonts/media-sans-font-family/mediasanssemicondensed-blackitalic-TRIAL-BF63c754799870e.otf') format('opentype');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
