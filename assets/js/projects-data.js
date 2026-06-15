@@ -49,32 +49,32 @@ var projects = [
     featured: true
   },
   {
-    id: 4,
-    title: "UM Band Shirt Design",
-    category: "Graphic Design",
-    categoryKey: "ui-ux-design",
-    description:
-      "A curated collection of t-shirt design concepts showcasing branding, typography, and visual identity work.",
-    image: "assets/images/project-umband-placeholder.png",
-    imageAlt: "Tshirt Design Portfolio interface",
-    url: "YOUR_TSHIRT_DESIGN_LINK_HERE",
-    technologies: ["Graphic Design", "Branding", "Typography"],
-    featured: true
-  },
+  id: 4,
+  title: "UM Band Shirt Design",
+  category: "Graphic Design",
+  categoryKey: "graphic-design",
+  description:
+    "A custom t-shirt design created for the University of Mindanao Band, combining typography, branding, and visual elements to reflect the organization's identity and school spirit.",
+  image: "assets/images/project-umband-placeholder.png",
+  imageAlt: "University of Mindanao Band t-shirt design",
+  url: "YOUR_TSHIRT_DESIGN_LINK_HERE",
+  technologies: ["Graphic Design", "Adobe Illustrator", "Typography", "Brand Identity"],
+  featured: true
+},
 
-  {
-    id: 5,
-    title: "Umerch App System ",
-    category: "UI/UX Design Portfolio",
-    categoryKey: "ui-ux-design",
-    description:
-      "A curated collection of t-shirt design concepts showcasing branding, typography, and visual identity work.",
-    image: "assets/images/project-umerchapp-placeholder.png",
-    imageAlt: "Tshirt Design Portfolio interface",
-    url: "https://www.figma.com/design/KrxZWRF1zHuEyjAf7SLO2G/Umerch-Protoyping-SuperFinal?node-id=179-1678&t=h5tOtnkfEkebljup-1",
-    technologies: ["UI/UX Design", "Application Design", "Typography"],
-    featured: true
-  },
+{
+  id: 5,
+  title: "UMERCH Mobile App UI/UX",
+  category: "UI/UX Design",
+  categoryKey: "ui-ux-design",
+  description:
+    "A complete mobile application prototype for UMERCH, an e-commerce platform designed for the University of Mindanao. The project includes user research, wireframes, high-fidelity interfaces, and an interactive prototype focused on delivering a seamless shopping experience.",
+  image: "assets/images/project-umerchapp-placeholder.png",
+  imageAlt: "UMERCH mobile application UI/UX design prototype",
+  url: "https://www.figma.com/design/KrxZWRF1zHuEyjAf7SLO2G/Umerch-Protoyping-SuperFinal?node-id=179-1678&t=h5tOtnkfEkebljup-1",
+  technologies: ["Figma", "UI/UX Design", "Mobile App Design", "Prototyping", "User Experience"],
+  featured: true
+},
 
   {
   id: 6,
