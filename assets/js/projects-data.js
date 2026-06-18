@@ -93,5 +93,26 @@ var projects = [
     "Twitter Bot Detection"
   ],
   featured: true
+},
+
+{
+  id: 7,
+  title: "Turing Machine Simulator",
+  category: "UI/UX Design Project",
+  categoryKey: "ui-ux-design",
+  description:
+    "A user-centered Turing Machine simulator designed to simplify the learning of computational theory concepts through an intuitive and interactive interface. Focused on enhancing usability, the design provides clear visualization of tape movements, state transitions, and machine execution, making complex algorithms easier to understand for students and educators.",
+  image: "assets/images/turing machine.png",
+  imageAlt: "Turing Machine Simulator user interface design",
+  url: "https://www.figma.com/design/ZIapT17nUaLramDNeRp7l9/CST-3RD-EXAM?node-id=0-1&t=lTMUCwNoDEdzxoYP-1",
+  technologies: [
+    "Figma",
+    "UI Design",
+    "UX Research",
+    "Wireframing",
+    "Prototyping",
+    "Design Systems"
+  ],
+  featured: true
 }
 ];
