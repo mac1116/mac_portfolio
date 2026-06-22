@@ -1728,9 +1728,9 @@ section {
 
 .all-projects-eyebrow {
   font-family: 'Media Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   color: var(--primary);
   display: inline-block;
@@ -1749,6 +1749,7 @@ section {
 }
 
 .all-projects-desc {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.05rem;
   color: var(--gray);
   max-width: 580px;
@@ -1798,6 +1799,7 @@ section {
 }
 
 .all-projects-filters {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -1827,6 +1829,7 @@ section {
 }
 
 .all-projects-count {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 0.85rem;
   color: var(--text-muted);
   margin: 0;
